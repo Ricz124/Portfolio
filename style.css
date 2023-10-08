@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body{
+    background-color: rgb(13, 14, 55);
+    font-family: "Inter";
+}
+
+.inicio{
+    height: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    background-image: url(img/18973.jpg);
+    background-attachment: fixed;
+    color: rgb(13, 14, 55);
+}
+
+.inicio h1{
+    font-family: "Dela Gothic One";
+    font-weight: lighter;
+}
+
+.inicio h2, .inicio h3{
+    font-family: "Merriweather";
+}
+
+.inicio h3 span{
+    color: rgb(255, 255, 255);
+}
+
+.heroi, .habilidades{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgb(21, 21, 139);
+    width: 75%;
+    height: auto;
+    padding: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+    margin: 20px;
+}
+
+.heroi .container img{
+    width: 150px;
+    border: 10px solid royalblue;
+    border-radius: 100%;
+
+}
+
+.heroi .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.heroi .container p{
+    max-width: 500px;
+    font-size: large;
+}
+
+.heroi .container h1{
+    font-size: xx-large;
+}
+
+.habilidades{
+    width: 75%;
+    padding: 40px;
+    background-color: rgb(21, 21, 139);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    color: aliceblue;
+}
+
+.skill{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.programação, .academia{
+    background-color: rgb(7, 13, 69);
+    width: 70%;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.contato{
+    width: 75%;
+    padding: 40px;
+    background-color: rgb(21, 21, 139);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    color: aliceblue;
+    gap: 20px;
+}
+
+.contato button{
+    padding: 10px 20px 10px 20px;
+    color: aliceblue;
+    background-color: rgb(28, 28, 84);
+    border: 3px solid rgb(13, 14, 55);
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(7, 9, 35);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+}
+
+.redes ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.redes ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.redes ul li a:hover{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.copyright{
+    flex-direction: column;
+}
